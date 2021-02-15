@@ -1,0 +1,36 @@
+body{
+    font-family: 'Reggae One', cursive;
+    margin: 0%;
+}
+.MyPortF{
+    color: chocolate;
+}
+.Description{
+    color: darkblue;
+}
+.half-width{
+    width: 35%;
+    float:left;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 25%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    background-image: linear-gradient(rgb(25, 25, 95) ,blue);
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
