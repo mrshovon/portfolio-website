@@ -5,6 +5,10 @@ body{
 .MyPortF{
     color: chocolate;
 }
+.stl{
+    color: brown;
+}
+
 .Description{
     color: darkblue;
 }
@@ -12,16 +16,21 @@ body{
     width: 35%;
     float:left;
     margin-left: 5%;
-    margin-top: 5%;
-    padding-left: 2%;
+    margin-top: 1%;
+    padding-left: 4%;
 }
 .half-width img{
     width: 100%;
-    margin-left: 25%;
+   
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.mid-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 section{
     height: 500px;
@@ -33,4 +42,33 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
+}
+.sinexp{
+    box-shadow: 10px 10px 40px darkgray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fs{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#bw{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(19, 99, 121),rgb(71, 117, 255));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: xx-small;
+}
+#ex{
+    text-align: center;
+    font-size: xx-large;
 }
